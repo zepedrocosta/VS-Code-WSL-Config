@@ -1,11 +1,11 @@
 # WSL-Config
-> Configurações para várias linguagens de programação usando WSL
 
-One to two paragraph statement about your product and what it does.
+Configurações para várias linguagens de programação usando WSL
+
+> Contém dicas para usar as mesmas linguas no VS Code
 
 ## WSL Installation
-
-Windows:
+Estes comandos irão instalar o WSL (Subsistema Windows para Linux) e a distro default (Ubuntu)
 
 ```sh
 wsl --install
@@ -13,44 +13,61 @@ wsl --install
 ```
 
 ## Notas
-
-Estes comandos irão instalar o WSL (Subsistema Windows para Linux) e a distro default (UBUNTU)
 Para escolher outra distro usar:
 
 ```sh
 wsl --install [Distribuição]
-
 ```
 
-## Development setup
+## Ocaml setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+Comandos para instalar o Ocaml e o Opam (package manager for OCaml)
 
 ```sh
-make install
-npm test
+sudo apt install rlwrap ocaml-interp
+sudo apt-get install opam
 ```
+Após instalar o Ocaml e o Opam 
+
+
+
+## C/C++ setup
+
+Comandos para instalar o C/C++ e o respetivo debugger;
+
+```sh
+sudo apt install gcc
+sudo apt-get install build-essential gdb
+```
+
+Para verificar se o compilador e o debbugger de C/C++ foram instalados corretamente usar:
+
+```sh
+whereis gcc
+whereis g++
+whereis gdb
+```
+Caso os comandos devolvam diretorias significa que foram bem instalados
+
+Exemplo:
+
+<img width="542" alt="image" src="https://user-images.githubusercontent.com/101460654/230719918-74ac632d-1fe9-4984-a9e7-da111f31be99.png">
+
 
 ## Release History
 
 * 0.0.1
     * Work in progress
+    * Start 08/04/2023
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+José Costa - josepirescosta2003@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+[Twitter](https://twitter.com/Jos3Costa)
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[GitHub](https://github.com/zepedrocosta)
 
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
