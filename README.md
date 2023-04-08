@@ -9,7 +9,6 @@ Estes comandos irão instalar o WSL (Subsistema Windows para Linux) e a distro d
 
 ```sh
 wsl --install
-
 ```
 
 ## Notas
@@ -33,7 +32,7 @@ Após instalar o Ocaml e o Opam
 
 ## C/C++ setup
 
-Comandos para instalar o C/C++ e o respetivo debugger;
+Comandos para instalar o C/C++ e o respetivo debugger:
 
 ```sh
 sudo apt install gcc
@@ -47,11 +46,16 @@ whereis gcc
 whereis g++
 whereis gdb
 ```
-Caso os comandos devolvam diretorias significa que foram bem instalados
+Caso os comandos devolvam diretorias significa que foram bem instalados.
 
 Exemplo:
 
 <img width="542" alt="image" src="https://user-images.githubusercontent.com/101460654/230719918-74ac632d-1fe9-4984-a9e7-da111f31be99.png">
+
+
+Para que seja possivel usar o C/C++ no VS Code é necessário esta [extenção](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack) (instalar a extenção no OS principal e no WSL)
+
+Exemplo:
 
 
 ## Release History
@@ -60,13 +64,17 @@ Exemplo:
     * Work in progress
     * Start 08/04/2023
 
-## Meta
+## Autor
 
-José Costa - josepirescosta2003@gmail.com
+José Costa - FCT-UNL
+
+josepirescosta2003@gmail.com
 
 [Twitter](https://twitter.com/Jos3Costa)
 
 [GitHub](https://github.com/zepedrocosta)
+
+[LinkedIn](https://www.linkedin.com/in/jos%C3%A9-costa-595b01239/)
 
 
 <!-- Markdown link & img dfn's -->
