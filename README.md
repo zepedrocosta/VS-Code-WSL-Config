@@ -56,6 +56,7 @@ Exemplo:
 Para que seja possivel usar o C/C++ no VS Code é necessário esta [extenção](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack) (instalar a extenção no OS principal e no WSL)
 
 Exemplo:
+
 <img width="461" alt="image" src="https://user-images.githubusercontent.com/101460654/230723521-a60a9c03-58af-48c6-8757-1d83e3a22773.png">
 
 
