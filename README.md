@@ -47,7 +47,10 @@ Para que seja possivel usar o C/C++ no VS Code é necessário esta [extenção](
 
 <img width="461" alt="image" src="https://user-images.githubusercontent.com/101460654/230723521-a60a9c03-58af-48c6-8757-1d83e3a22773.png">
 
-TODO:Colocar como configurar RUN e DEBUG
+Para correr ou fazer debbug do codigo em C/C++ selecionar:
+
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/101460654/231136983-c356e036-6417-4f55-9965-6fc12a049f75.png">
+
 
 ## Ocaml setup
 
